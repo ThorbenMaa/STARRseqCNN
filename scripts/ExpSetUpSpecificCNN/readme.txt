@@ -1,0 +1,4 @@
+python ExpSetUpSpecificCNN/train_or_eval_CNNs_setUpSpec.py --counts1 2023-01-10_22-29-33\ myCounts.minDNAfilt.depthNorm.keepHaps\ -\ starr.haplotypes.oligo1.txt  --counts2 2023-01-10_22-29-33\ myCounts.minDNAfilt.depthNorm.keepHaps\ -\ starr.haplotypes.oligo2.txt  --seqs starrseq-all-final-toorder_oligocomposition.csv  --mode train  --holdOut chr8  --useAug use_aug  --model noModel
+
+
+python ExpSetUpSpecificCNN/train_or_eval_CNNs_setUpSpec.py --counts1 2023-01-10_22-29-33\ myCounts.minDNAfilt.depthNorm.keepHaps\ -\ starr.haplotypes.oligo1.txt  --counts2 2023-01-10_22-29-33\ myCounts.minDNAfilt.depthNorm.keepHaps\ -\ starr.haplotypes.oligo2.txt  --seqs starrseq-all-final-toorder_oligocomposition.csv  --mode load  --holdOut chr8  --useAug use_aug  --model allseq-CNN_StarSeq_model_Minna_deepSTAR_lr0.01use_augsetUpSpec\('mean_HepG2_untreatedPilot',\ 'mean_TeloHAEC_CTRL'\)
