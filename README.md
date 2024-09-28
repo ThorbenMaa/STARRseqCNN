@@ -23,7 +23,7 @@ The STARRseq activity files:
 A file with all oligos:
  -starrseq-all-final-toorder_oligocomposition.csv
 
-Files with p-values.
+Folder with files with p-values.
 
 
 
