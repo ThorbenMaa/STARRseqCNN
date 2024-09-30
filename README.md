@@ -11,6 +11,7 @@ I recommend to use [mamba](https://mamba.readthedocs.io/en/latest/installation.h
 ```
 mamba env create --name CNN_TM --file=./envs/CNN_TM.yml
 mamba env create --name modisco_lite --file=./envs/modisco_lite.yml
+mamba env create --name exp_activity_analysis --file=./envs/exp_activity_analysis.yml
 ```
 
 
@@ -56,6 +57,10 @@ bash model_train_eavl_interpretation/sbatch_tfmodisco_v2_nonOverfitted.sh
 ```
 
 ## Workflow for analysis
+Activate the environment using:
+```
+mamba activate exp_activity_analysis
+```
 All analysis pipelines can be found in the `PipelineCommands` folder. The ones named `pipeline_jointPost_*.sh` without `JASPAR` (i.e. with CNN motifs as motif source) were used for the manuscript.
 
 Motif enrichment can be tested with the script `sbatch_run_all.sh` in the `enrichment_ana` folder. The script needs to be run from inside this folder.
