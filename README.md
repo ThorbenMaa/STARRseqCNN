@@ -1,4 +1,4 @@
-# STARRseqCNN (README needs update!!)
+# STARRseqCNN
 
 This repository contains and describes code used to train, evaluate, and interprete multi task STARRseq CNNs based on STARRseq data from multiple experimental set-ups provided by the [Kaikkonen Lab](https://uefconnect.uef.fi/en/group/cardiovascular-genomics-kaikkonen-lab/). The folder `models` contains the trained model used for further analysis described in the manuscript. 
 
