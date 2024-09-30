@@ -18,11 +18,11 @@ mamba env create --name exp_activity_analysis --file=./envs/exp_activity_analysi
 ## Required files
 Here is a list of required files that you need to place in this folder. Please start all scripts from this folder.
 The STARRseq activity files:
- -2023-01-10_22-29-33\ myCounts.minDNAfilt.depthNorm.keepHaps\ -\ starr.haplotypes.oligo1.txt
- -2023-01-10_22-29-33\ myCounts.minDNAfilt.depthNorm.keepHaps\ -\ starr.haplotypes.oligo2.txt
+- 2023-01-10_22-29-33\ myCounts.minDNAfilt.depthNorm.keepHaps\ -\ starr.haplotypes.oligo1.txt
+- 2023-01-10_22-29-33\ myCounts.minDNAfilt.depthNorm.keepHaps\ -\ starr.haplotypes.oligo2.txt
 
 A file with all oligos:
- -starrseq-all-final-toorder_oligocomposition.csv
+- starrseq-all-final-toorder_oligocomposition.csv
 
 Folder with files with p-values.
 
